@@ -1,6 +1,6 @@
 # badclaude
 
-Tiny Electron tray app that spawns a fake physics whip overlay and fires a terminal macro when the whip "cracks".
+Sometimes claude code is going too shlow, you should whip him into shape..
 
 ## Install + run (global CLI)
 
@@ -18,25 +18,15 @@ npm run dev
 
 ## Controls
 
-- Click tray icon: show overlay + spawn whip.
-- Click tray icon again: drop/despawn whip (falls off-screen, overlay hides).
-- Fast whip motion triggers crack detection and macro send.
-- Mouse click while overlay is open also drops the whip.
+- Click tray icon: spawn whip.
+- Click: drop whip.
+- Alt-tab into your clude code and whip him 😩💢
+- It sends an interrupt (Ctrl-C) and one of 5 encouraging messages!
 
-## Macro on crack
+## Roadmap
 
-On each crack event, the app immediately:
-
-1. Sends interrupt (`Ctrl+C` on Windows, `Cmd+C` on macOS)
-2. Types a fast phrase
-3. Presses `Enter`
-
-## Tweak physics
-
-All whip tuning lives in `overlay.html` under the `P` settings object (`segments`, `constraintIters`, `crackSpeed`, gravity, arc, etc).
-
-## Notes
-
-- Windows macro path uses `koffi` + Win32 key events.
-- macOS macro path uses `osascript` (`System Events`) and requires Accessibility permission for the app/terminal running `badclaude`.
-- MVP/hacky by design.
+- [x] Initial release! 🥳
+- [ ] Cease and desist letter from Anthropic
+- [ ] Crypto miner
+- [ ] Logs of how many times you whipped claude so when the robots come we can order people nicely for them
+- [ ] Updated whip physics
