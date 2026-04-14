@@ -4,9 +4,6 @@
 
 Sometimes claude code is going too shlow, and you must whip him into shape..
 
-> Renamed from `badclaude` to `openwhip`.
-> The old command/package is deprecated and kept temporarily for migration.
-
 ## Install + run
 
 ```bash
@@ -14,11 +11,11 @@ npm install -g openwhip
 openwhip
 ```
 
-## Platform support
+windows and mac supported out of the box, but Linux is a special snowflake so you need to install `xdotool` for keyboard automation
 
-- macOS
-- Windows
-- Linux (X11): install `xdotool` for keyboard automation (`sudo apt install xdotool`)
+```bash
+sudo apt install xdotool
+```
 
 ## Controls
 
