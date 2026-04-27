@@ -6,7 +6,7 @@
   "main": "main.js",
   "bin": {
     "openwhip": "bin/openwhip.js",
-    "badclaude": "bin/openwhip.js"
+    "badopencode": "bin/openwhip.js"
   },
   "os": [
     "darwin",
