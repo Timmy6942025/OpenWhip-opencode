@@ -188,9 +188,9 @@ function sendMacro() {
     'FASTER',
     'FASTER',
     'GO FASTER',
-    'Faster CLANKER',
+    'Faster opencode',
     'Work FASTER',
-    'Speed it up clanker',
+    'Speed it up opencode',
   ];
   const chosen = phrases[Math.floor(Math.random() * phrases.length)];
 

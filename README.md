@@ -2,7 +2,7 @@
 
 ![Whip divider](assets/divider.png)
 
-Sometimes claude code is going too shlow, and you must whip him into shape..
+Sometimes opencode is going too slow, and you must whip it into shape..
 
 ## Install + run
 
@@ -27,7 +27,7 @@ sudo apt install xdotool
 ## Roadmap
 
 - [x] Initial release! 🥳
-- [x] Cease and desist letter from Anthropic
+- [x] Cease and desist letter from opencode team
 - [ ] Crypto miner
 - [ ] Logs of how many times you whipped claude so when the robots come we can order people nicely for them
 - [ ] Updated whip physics
